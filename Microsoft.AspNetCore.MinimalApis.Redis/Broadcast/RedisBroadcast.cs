@@ -1,6 +1,7 @@
+using Microsoft.AspNetCore.MinimalApis.Broadcast;
 using StackExchange.Redis;
 
-namespace Microsoft.AspNetCore.MinimalApis.Broadcast;
+namespace Microsoft.AspNetCore.MinimalApis.Redis.Broadcast;
 
 internal sealed class RedisBroadcast(
     IConnectionMultiplexer multiplexer,

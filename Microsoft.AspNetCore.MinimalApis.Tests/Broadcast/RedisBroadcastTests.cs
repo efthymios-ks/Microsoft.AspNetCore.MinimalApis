@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.MinimalApis.Broadcast;
+using Microsoft.AspNetCore.MinimalApis.Redis.Broadcast;
 using NSubstitute;
 using StackExchange.Redis;
 using Xunit;

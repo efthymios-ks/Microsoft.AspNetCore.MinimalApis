@@ -59,10 +59,8 @@ public sealed class ApiEnumTests
 
     [Fact]
     public void Parse_WhenInvalid_ShouldThrowFormatException()
-    {
         // Act & Assert
-        Assert.Throws<FormatException>(() => ApiEnum<SampleEnum>.Parse("banana", provider: null));
-    }
+        => Assert.Throws<FormatException>(() => ApiEnum<SampleEnum>.Parse("banana", provider: null));
 
     [Fact]
     public void ImplicitConversion_WhenAssignedToEnum_ShouldUnwrapToEnum()

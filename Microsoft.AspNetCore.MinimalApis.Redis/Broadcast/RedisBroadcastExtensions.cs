@@ -1,7 +1,8 @@
+using Microsoft.AspNetCore.MinimalApis.Broadcast;
 using Microsoft.Extensions.DependencyInjection;
 using StackExchange.Redis;
 
-namespace Microsoft.AspNetCore.MinimalApis.Broadcast;
+namespace Microsoft.AspNetCore.MinimalApis.Redis.Broadcast;
 
 public static class RedisBroadcastExtensions
 {
