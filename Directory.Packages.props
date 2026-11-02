@@ -4,7 +4,6 @@
   </PropertyGroup>
   <ItemGroup Label="Library">
     <PackageVersion Include="Asp.Versioning.Http" Version="10.0.0" />
-    <PackageVersion Include="StackExchange.Redis" Version="2.13.17" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="10.2.1" />
   </ItemGroup>
   <ItemGroup Label="Analyzers">

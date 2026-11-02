@@ -19,7 +19,6 @@
   </Folder>
   <Project Path="Microsoft.AspNetCore.MinimalApis.Tests/Microsoft.AspNetCore.MinimalApis.Tests.csproj" />
   <Project Path="Microsoft.AspNetCore.MinimalApis/Microsoft.AspNetCore.MinimalApis.csproj" Id="52c13b4d-52c4-42de-8374-80f10e18c78d" />
-  <Project Path="Microsoft.AspNetCore.MinimalApis.Redis/Microsoft.AspNetCore.MinimalApis.Redis.csproj" />
   <Project Path="Microsoft.AspNetCore.MinimalApis.Analyzers/Microsoft.AspNetCore.MinimalApis.Analyzers.csproj" />
   <Project Path="Microsoft.AspNetCore.MinimalApis.Testing/Microsoft.AspNetCore.MinimalApis.Testing.csproj" />
   <Project Path="Samples.FastEndpoints/Samples.FastEndpoints.csproj" />

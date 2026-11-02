@@ -11,7 +11,6 @@
 
 	<ItemGroup Label="Access internals for test projects">
 		<InternalsVisibleTo Include="Microsoft.AspNetCore.MinimalApis.Tests" />
-		<InternalsVisibleTo Include="Microsoft.AspNetCore.MinimalApis.Redis" />
 		<InternalsVisibleTo Include="DynamicProxyGenAssembly2" />
 	</ItemGroup>
 

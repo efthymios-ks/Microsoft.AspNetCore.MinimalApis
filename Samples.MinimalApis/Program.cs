@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.MinimalApis.ApiCaching.Distributed;
 using Microsoft.AspNetCore.MinimalApis.ApiCaching.Local;
 using Microsoft.AspNetCore.MinimalApis.ApiEndpoints;
 using Microsoft.AspNetCore.MinimalApis.ApiIdempotency;
-using Microsoft.AspNetCore.MinimalApis.Broadcast;
 using Microsoft.AspNetCore.MinimalApis.ApiLogging;
 using Microsoft.AspNetCore.MinimalApis.ApiSwagger;
 using Samples.Shared.Repositories;
@@ -35,8 +34,6 @@ services.AddApiRequestLog(options => options.PropertiesSelector = context
         ["MachineName"] = Environment.MachineName,
         ["App"] = "Minimal APIs App",
     });
-
-services.AddBroadcaster();
 
 services.AddViews();
 services.AddApiEndpoints();

@@ -8,7 +8,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Microsoft.AspNetCore.MinimalApis\Microsoft.AspNetCore.MinimalApis.csproj" />
-		<ProjectReference Include="..\Microsoft.AspNetCore.MinimalApis.Redis\Microsoft.AspNetCore.MinimalApis.Redis.csproj" />
 		<ProjectReference Include="..\Microsoft.AspNetCore.MinimalApis.Testing\Microsoft.AspNetCore.MinimalApis.Testing.csproj" />
 	</ItemGroup>
 
